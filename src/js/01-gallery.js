@@ -1,5 +1,5 @@
-import SimpleLightbox from "simple-lightbox";
-import "simple-lightbox/dist/simpleLightbox.min.css";
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css"
 // Add imports above this line
 import { galleryItems } from './gallery-items';
 // Change code below this line
@@ -7,7 +7,7 @@ import { galleryItems } from './gallery-items';
 console.log(galleryItems);
 const galleryEl = document.querySelector(".gallery");
 
-galleryEl.addEventListener("click", onGalleryClick);
+galleryEl.addEventListener("click",  onModalOpenClick);
 
 const galleryMarkup = galleryItems
   .map(({ preview, original, description }) => {
