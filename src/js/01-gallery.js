@@ -7,7 +7,7 @@ import { galleryItems } from './gallery-items';
 console.log(galleryItems);
 const galleryEl = document.querySelector(".gallery");
 
-galleryEl.addEventListener("click",  onModalOpenClick);
+galleryEl.addEventListener("click", onModalOpenClick);
 
 const galleryMarkup = galleryItems
   .map(({ preview, original, description }) => {
